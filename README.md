@@ -1,14 +1,18 @@
-## backuper
+# backuper
 
-#### It is script for backup
+Script for saving backup data
 
-##### Build the project
+## build project
 
-## cargo build --release
+```bash
+cargo build --release
+```
 
-##### Run script
+## run script
 
-## ./target/release/backuper ./data/ ./result/
+first argument is a path for data to the archive,
+second argument is the path to save the archive.
 
-The first argument is a path for data to the archive
-The second argument is the path to save the archive
+```bash
+./target/release/backuper ./data/ ./result/
+```
